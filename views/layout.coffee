@@ -14,10 +14,10 @@ head ->
   meta charset: "utf-8"
   meta "http-equiv": "X-UA-Compatible", content: "IE=Edge;chrome=1"
 
-  title @title or "yoursite.com"
+  title @title or "abhi.info | Thanks for stopping by!"
 
-  meta name: "description", content: ""
-  meta name: "author", content: ""
+  meta name: "description", content: "The personal website for Abhi Nemani. Follow me on Twitter @abhinemani!"
+  meta name: "author", content: "Abhi Nemani, @abhinemani"
   meta name: "viewport", content: "width=980"
 
   # HTML5 shim, for IE 6-8 support of HTML elements
