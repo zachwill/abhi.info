@@ -1,0 +1,46 @@
+@import "bootstrap/mixins.less";
+
+@pink: #b111c7;
+
+.custom-highlight{
+    background: @pink;
+    color: #fff;
+    text-shadow: -1px 1px 1px darken(@pink, 15%);
+}
+
+/* Apply custom highlight */
+::-moz-selection{ .custom-highlight; }
+::selection { .custom-highlight; }
+
+textarea{
+    resize: vertical;
+}
+
+body{
+    background: #f32c15;
+    color: #1141c7;
+    font-family: 'Comics Sans', 'Comic Sans MS', sans-serif;
+    padding-top: 100px;
+}
+
+.hero-unit{
+    background: rgba(255, 255, 255, .25);
+    h1{
+        color: #222;
+    }
+}
+
+pre{
+    background: transparent;
+    border: 0;
+    code{
+        background: transparent;
+        color: darken(#1141c7, 10%);
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+footer{
+    border: 0;
+}
